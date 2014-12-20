@@ -1,6 +1,6 @@
 {
   "name": "wptproxy",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A proxy and load-balancer for WebPagtest Private Instances and WPT test agents.",
   "main": "proxy.js",
   "scripts": {

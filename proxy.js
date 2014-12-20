@@ -13,7 +13,11 @@ function WPTProxy(options) {
     throw new Error("options must be an object.")
   }
 
-  if ( options.targets && !Array.isArray(options.targets) ) {
+  if ( !options.targets ) {
+    throw new Error("options.targets is required.")
+  }
+
+  if ( !Array.isArray(options.targets) ) {
     throw new Error("options.targets must be an array.")
   }
 
